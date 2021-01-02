@@ -1,0 +1,6 @@
+import React from 'react';
+
+const InputLabel=(props)=>{
+    return <label className={props.classValue} for={props.forInput} >{props.children}</label>; 
+}
+export default React.memo(InputLabel);
